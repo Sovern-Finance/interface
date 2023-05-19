@@ -334,17 +334,17 @@ export default function Landing() {
           <ContentContainer isDarkMode={isDarkMode}>
             <TitleText isDarkMode={isDarkMode}>
               {shouldDisableNFTRoutes ? (
-                <Trans>Trade crypto with confidence</Trans>
+                <Trans>Elevate Resource Allocation with Confidence</Trans>
               ) : (
-                <Trans>Trade crypto and NFTs with confidence</Trans>
+                <Trans>Elevate Resource Allocation with Confidence</Trans>
               )}
             </TitleText>
             <SubTextContainer>
               <SubText>
                 {shouldDisableNFTRoutes ? (
-                  <Trans>Buy, sell, and explore tokens</Trans>
+                  <Trans>Buy, sell, and explore resources, tokens, and NFTs in the RBV Ecosystem</Trans>
                 ) : (
-                  <Trans>Buy, sell, and explore tokens and NFTs</Trans>
+                  <Trans>Buy, sell, and explore resources, tokens, and NFTs in the RBV Ecosystem</Trans>
                 )}
               </SubText>
             </SubTextContainer>
